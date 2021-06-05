@@ -50,7 +50,7 @@ int main (int argc, char **argv) {
     
     assert(argc > 1);
     List list_n = new_list(atoi(argv[1]));
-    int i = 2;
+    int i = 1;
     List curr = list_n;  
     while (i < argc) {    
         curr->next = new_node(atoi(argv[i]));
